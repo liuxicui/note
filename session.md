@@ -10,7 +10,7 @@ npm install express-session
 ```
 代码如下：
 ```
-const session = require('express-session')
+const session = require('express-session');
 
 app.use(session({
   secret: 'keyboard cat',
@@ -89,14 +89,3 @@ app.listen(3003, function(){
   console.log('running on part 3003');
 })
 ```
-
-
-
-
-
-
-
-
-
-
-end
